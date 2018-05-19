@@ -1,0 +1,21 @@
+<body>
+    <form action="/result" method="post">
+        <label for="name">Your Name:</label>
+        <input class="form-control" type="text" name="name" id="name">
+        <label for="loc">Dojo Location:</label>
+        <select name="loc" id="loc">
+            <option value="mountain view">Mountain View</option>
+            <option value="bellevue">Bellevue</option>
+            <option value="austin">Austin</option>
+        </select>
+        <label for="lang">Language:</label>
+        <select name="lang" id="lang">
+            <option value="python">Python</option>
+            <option value="javascript">Javascript</option>
+            <option value="ruby">Ruby</option>
+        </select>
+        <label for="comment">Comment (optional):</label>
+        <textarea class="form-control" name="comment" id="comment"></textarea>
+        <input class="btn" type="submit" name="button" value="submit">
+    </form>
+</body>
